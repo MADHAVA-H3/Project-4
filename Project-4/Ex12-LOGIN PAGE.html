@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>LoginForm</title>
+        <style>
+            h2{
+            text-align:center;
+            text-shadow: 10px 5px 10px red;
+            }
+            h3{
+            text-align:center;
+            }
+            body {
+             background-color: rgb(0, 255, 157)
+            }
+            .container {
+                margin: 0 auto;
+                background: hsl(154, 94%, 37%);
+                box-sizing: border-box;
+                width: 350px;
+                    padding: 5px 10px;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                    background-color: brown;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 350px;
+                    padding: 5px 10px;
+                    background-color: blueviolet;
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 350px;
+                    padding: 5px 15px;
+                    background-color: rgb(20, 213, 220);
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 350px;
+                    padding: 5px 20px;
+                    background-color: black;
+                }
+            }
+            div {
+                background-color:rgb(23, 255, 81) ;
+                color:rgb(226, 43, 43)
+            }
+          
+        </style>    
+    </head>
+    <body>
+        
+            <h2>*Login form:</h2>
+            <div class="container">
+                <form action="success.html">
+           <h3> User name:<input type="text" name="uname"> <br>
+            Password: <input type="password" name="pass"> <br>
+        <input type="submit">
+           </h3>
+
+        </form>
+            </div>
+        
+    </body>
+
+    <body background="c:\Users\LabUser\Pictures\Screenshots\Screenshot (6).png"></body>
+</html>
